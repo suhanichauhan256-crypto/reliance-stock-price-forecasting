@@ -23,8 +23,8 @@ This project analyzes five years of historical Reliance Industries stock price d
 ## Results
 - ARIMA MAE: ₹80.65
 - ARIMA RMSE: ₹98.97
-- Naive baseline MAE: ₹13.77
-- Naive baseline RMSE: ₹18.31
+- Fixed-horizon baseline MAE: ₹80.65
+- Fixed-horizon baseline RMSE: ₹99.00
 
 The naive baseline showed lower errors in the reported evaluation. The forecasting approaches used different evaluation methods, so the results should be compared carefully.
 
