@@ -26,7 +26,7 @@ This project analyzes five years of historical Reliance Industries stock price d
 - Fixed-horizon baseline MAE: ₹80.65
 - Fixed-horizon baseline RMSE: ₹99.00
 
-The naive baseline showed lower errors in the reported evaluation. The forecasting approaches used different evaluation methods, so the results should be compared carefully.
+The ARIMA(1,1,1) model achieved an MAE of ₹80.65 and an RMSE of ₹98.97. The fixed-horizon baseline achieved an MAE of ₹80.65 and an RMSE of ₹99.00. Both approaches produced very similar results, with ARIMA showing a negligible improvement in RMSE. This comparison uses the same test period for both methods. The forecasting approaches used different evaluation methods, so the results should be compared carefully.
 
 ## Conclusion
 This project demonstrates data collection, data cleaning, exploratory data analysis, time series forecasting, visualization, and model evaluation. Future work could include tuning ARIMA parameters and comparing models using a consistent evaluation method.
